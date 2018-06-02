@@ -9,7 +9,7 @@ Data Entry Flow is being used in Home Assistant to create config entries.
 
 ## Flow Manager
 
-This is the class that manages the flows that are in progress. When instantiating one, you pas in two async callbacks:
+This is the class that manages the flows that are in progress. When instantiating one, you pass in two async callbacks:
 
 ```python
 async def async_create_flow(handler, source=source, data=data)
